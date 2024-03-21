@@ -1,0 +1,83 @@
+2024-03-20 21:23:02,683 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionServiceApplicationTests using Java 17.0.10 with PID 30976 (started by YE93AR in C:\Users\YE93AR\Java-Practice\Transaction-Service)
+2024-03-20 21:23:02,685 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v3.2.0, Spring v6.1.1
+2024-03-20 21:23:02,686 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 21:23:03,220 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-20 21:23:03,277 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-03-20 21:23:03,645 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-20 21:23:03,860 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:transactionservice user=SA
+2024-03-20 21:23:03,862 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-20 21:23:03,921 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-20 21:23:03,976 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-03-20 21:23:04,027 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-03-20 21:23:04,310 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-20 21:23:04,350 WARN org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-20 21:23:04,870 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-20 21:23:04,899 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20 21:23:05,363 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-20 21:23:05,692 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:transactionservice'
+2024-03-20 21:23:05,736 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionServiceApplicationTests in 3.34 seconds (process running for 4.176)
+2024-03-20 21:23:06,261 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20 21:23:06,265 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-03-20 21:23:06,267 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-03-20 21:23:26,935 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionServiceApplication v0.0.1-SNAPSHOT using Java 17.0.10 with PID 34172 (C:\Users\YE93AR\Java-Practice\Transaction-Service\target\transaction-service.jar started by YE93AR in C:\Users\YE93AR\Java-Practice\Transaction-Service)
+2024-03-20 21:23:26,939 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v3.2.0, Spring v6.1.1
+2024-03-20 21:23:26,940 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 21:23:27,529 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-20 21:23:27,577 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-03-20 21:23:28,067 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8090 (http)
+2024-03-20 21:23:28,076 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2024-03-20 21:23:28,078 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-20 21:23:28,079 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-03-20 21:23:28,134 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-20 21:23:28,136 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1121 ms
+2024-03-20 21:23:28,168 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-20 21:23:28,349 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:transactionservice user=SA
+2024-03-20 21:23:28,351 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-20 21:23:28,363 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:transactionservice'
+2024-03-20 21:23:28,526 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-20 21:23:28,590 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-03-20 21:23:28,624 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-03-20 21:23:28,832 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-20 21:23:28,876 WARN org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-20 21:23:29,450 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-20 21:23:29,478 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20 21:23:29,713 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-20 21:23:30,103 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2024-03-20 21:23:30,166 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8090 (http) with context path ''
+2024-03-20 21:23:30,187 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionServiceApplication in 3.85 seconds (process running for 4.328)
+2024-03-20 21:24:21,341 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-20 21:24:21,342 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-20 21:24:21,344 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2024-03-20 21:24:21,440 INFO com.cgi.transactionservice.controller.TransactionController [http-nio-8090-exec-1] Creating transaction on account 391300550
+2024-03-20 21:24:42,968 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20 21:24:42,972 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-03-20 21:24:42,980 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-03-20 22:19:10,160 INFO org.springframework.boot.StartupInfoLogger [main] Starting TransactionServiceApplication v0.0.1-SNAPSHOT using Java 17.0.10 with PID 37236 (C:\Users\YE93AR\Java-Practice\Transaction-Service\target\transaction-service.jar started by YE93AR in C:\Users\YE93AR\Java-Practice\Transaction-Service)
+2024-03-20 22:19:10,164 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v3.2.0, Spring v6.1.1
+2024-03-20 22:19:10,168 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 22:19:10,781 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-20 22:19:10,829 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-03-20 22:19:11,354 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8090 (http)
+2024-03-20 22:19:11,359 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2024-03-20 22:19:11,362 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-20 22:19:11,364 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-03-20 22:19:11,409 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-20 22:19:11,411 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1175 ms
+2024-03-20 22:19:11,440 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-20 22:19:11,613 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:transactionservice user=SA
+2024-03-20 22:19:11,614 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-20 22:19:11,626 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:transactionservice'
+2024-03-20 22:19:11,793 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-20 22:19:11,883 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-03-20 22:19:11,924 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-03-20 22:19:12,146 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-20 22:19:12,199 WARN org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-20 22:19:12,676 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-20 22:19:12,708 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20 22:19:12,936 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-20 22:19:13,288 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2024-03-20 22:19:13,324 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8090 (http) with context path ''
+2024-03-20 22:19:13,342 INFO org.springframework.boot.StartupInfoLogger [main] Started TransactionServiceApplication in 3.753 seconds (process running for 4.242)
+2024-03-20 23:07:50,771 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20 23:07:50,776 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-03-20 23:07:50,782 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
